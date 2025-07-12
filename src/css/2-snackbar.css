@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.back-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 300px;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='number'] {
+  width: calc(100% - 20px);
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+legend {
+  padding: 0 10px;
+}
+
+input[type='radio'] {
+  margin-right: 5px;
+}
+
+button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #e0e0e0;
+}
